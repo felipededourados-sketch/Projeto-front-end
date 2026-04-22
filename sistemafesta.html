@@ -1,0 +1,32 @@
+<script type="text/javascript">
+    // O Cadastro do aniversariante
+    let festa=[]
+    function cadastro () {
+    let aniversariante = {}
+    aniversariante.nome = prompt("O Nome do aniversáriante: ")
+    aniversariante.idade = +prompt("A Idade: ")
+    aniversariante.local = prompt("E o Local da Festa:")
+    festa.push(aniversariante)
+    }
+    // Mostrar na tela
+    function  menu (){
+        let guard
+        while (guard != "Sair"){
+            guard=prompt(" \n Cadastro novo \n Listar tudo  \n Sair")
+            if (guard == "Cadastro novo"){
+                cadastro ()
+            }
+            if (guard == "Listar tudo"){
+                for (let i=0; i<=festa.length; i++){
+               alert("Nome do aniversáriante: "+festa[i].nome)
+               alert("Idade: "+festa[i].idade)
+                alert("O local Da Festa: "+festa[i].local)
+            }
+            }
+            if (guard == "Sair"){
+                alert("Obrigado por usar nosso site")
+            }
+        }
+    }
+    menu ()
+</script>
