@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calendário</title>
+</head>
+<body>
+	<style type="text/css">
+		.Barra_de_atalho{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			flex-wrap: wrap;
+		}
+		.Caixinha{
+			display: flex;
+			flex-direction: row;
+            justify-content: center;
+            background-color: silver;
+            border: 1px solid;
+            width: 70vh;
+            height: 10vh;
+		}
+		.O_cadastro_em_si{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: flex-start;
+			flex-wrap: wrap;
+            width: 50vh;
+            height: 70vh;
+			border: 1px solid;
+			margin-top: 15px;
+         
+		}
+     	.Cadastro{
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			align-items: flex-start;
+			flex-wrap: wrap;
+			background-color: white;
+			}
+        .area{
+        	display: flex;
+        	justify-content: flex-end;
+        	width: 50vh;
+        }
+		.Botao{
+			display: flex;
+			background-color: green;
+            width: 20vh;
+            height: 5vh;
+            border: 1px solid black;
+		}
+		.Campo_do_formulario{
+			display: flex;
+			justify-content: space-between;
+			width: 48vh;
+			height: 6vh;
+		}
+		.menu{
+			display: flex;
+			justify-content: flex-end;
+			width: 100%;
+		}
+	</style>
+
+<header class="Barra_de_atalho">
+	<div class="menu">
+		<a href="Organizador.html">
+		<img src="_x37_24-_equal__x2C__equal_sign___x2C__sign__x2C_.png">
+	    </a>
+	</div>
+	   <div class="Caixinha">
+	   <h1>Olá, por favor, faça o cadastro primeiro.</h1>
+	   </div>
+<nav class="Area_do_cadastro">
+	<main class="O_cadastro_em_si">
+	<section class="Cadastro">
+		<h1>Nome:
+		<input type="form" class="Campo_do_formulario">
+		</h1>
+		<h1>Mês:
+		<input type="form" class="Campo_do_formulario">
+        </h1>
+		<h1>Ano:
+		<input type="form" class="Campo_do_formulario">
+	    </h1>
+	</section>
+	<div class="area">
+		<input type="submit" class="Botao">
+		</div>
+	</main>
+    </nav>
+</header>
+</body>
+</html>

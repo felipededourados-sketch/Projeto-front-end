@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calendario</title>
+	<style type="text/css">
+		.barra_de_navegacao{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			flex-wrap: wrap;
+		}
+		.Saudacao{
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			background-color: pink;
+			border: 1px solid;
+			width: 70vh;
+			height: 10vh;
+		}
+
+     	.menu{
+		display: flex;
+		justify-content: flex-end;
+		width: 100%;
+		}
+		.area_do_calendario{
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+			align-items: center;
+			background-color: gray;
+			width: 100vh;
+			height: 50vh;
+			border: 15px;
+			margin-top: 2px;
+		}
+		.botao{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			width: 50vh;
+		}
+		.apagar{
+			display: flex;
+			justify-content: center;
+			background-color: red;
+			width: 20vh;
+            height: 5vh;
+            border: 1px solid black;
+		}
+		.salvar{
+		display: flex;
+		justify-content: center;
+		background-color: green;
+		width: 20vh;
+        height: 5vh;
+        border: 1px solid black;
+		}
+		.Calendario{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+		}
+		.segunda{
+			display: flex;
+			flex-wrap: wrap;
+			border: 1px solid;
+			height: 50vh;
+		}
+			.terca{
+			display: flex;
+			flex-wrap: wrap;
+			border: 1px solid;
+			height: 50vh;
+		}
+			.quarta{
+			display: flex;
+		    flex-wrap: wrap;
+			border: 1px solid;
+			height: 50vh;
+		}
+			.quinta{
+			display: flex;
+		    flex-wrap: wrap;
+			border: 1px solid;
+			height: 50vh;
+		}
+			.sexta{
+			display: flex;
+			flex-wrap: wrap;
+			border: 1px solid;
+			height: 50vh;
+		}
+		.Tarefa_segunda{
+			display: flex;
+			height: 20vh;
+		}
+
+		.Tarefa_terca{
+			display: flex;
+			width: 20vh;
+		}
+
+		.Tarefa_quarta{
+		    display: flex;
+			width: 20vh;
+		}
+
+		.Tarefa_quinta{
+		    display: flex;
+			width: 20vh;
+		}
+
+		.Tarefa_sexta{
+			display: flex;
+			width: 20vh;
+		}
+	</style>
+</head>
+<body>
+<header class="barra_de_navegacao">
+	<div class="menu">
+		<a href="Calendario.html">
+		<img src="_x37_24-_equal__x2C__equal_sign___x2C__sign__x2C_.png">
+	    </a>
+	</div>
+	</div>
+	</nav>
+	<div class="Saudacao">
+		<h1>Olá qual será sua rotina, organize aqui</h1>
+	</div>
+<main>
+	<div class="area_do_calendario">
+		<section class="Calendario">
+		<div class="segunda">
+			<h1>Segunda-feira</h1>
+		<div class="Tarefa_segunda">
+			<h2>Estudar geografia</h2>
+		</div>
+		</div>
+		<div class="terca">
+			<h1>Terça-feira</h1>
+		<div class="Tarefa_terca">
+			<h2>Tarefa de matematica</h2>
+		</div>
+		</div>
+		<div class="quarta">
+			<h1>Quarta-feira</h1>
+		<div class="Tarefa_quarta">
+			<h2>Estudar biologia</h2>
+		</div>
+		</div>
+		<div class="quinta">
+			<h1>Quinta-feira</h1>
+		 <div class="Tarefa_quinta">
+		 	<h2>Fazer a atividade de LC</h2>
+		 </div>
+		</div>
+		<div class="sexta">
+			<h1>Sexta-feira</h1>
+		<div class="Tarefa_senha">
+			<h2>Fazer a atividade de Front End</h2>
+		</div>
+		</div>
+		</section>
+	</div>
+</main>
+<div class="botao">
+	<input type="submit" value="apagar" class="apagar">
+	<button type="submit" class="salvar">salvar</button>
+</div>
+</body>
+</html>
